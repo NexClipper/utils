@@ -1,3 +1,4 @@
+//go:build acceptance || metric || metrics
 // +build acceptance metric metrics
 
 package v1
@@ -5,9 +6,9 @@ package v1
 import (
 	"testing"
 
-	"github.com/gophercloud/gophercloud/acceptance/tools"
-	"github.com/gophercloud/utils/acceptance/clients"
-	"github.com/gophercloud/utils/gnocchi/metric/v1/metrics"
+	"github.com/nexclipper/gophercloud/acceptance/tools"
+	"github.com/nexclipper/utils/acceptance/clients"
+	"github.com/nexclipper/utils/gnocchi/metric/v1/metrics"
 )
 
 func TestMetricsCRUD(t *testing.T) {
