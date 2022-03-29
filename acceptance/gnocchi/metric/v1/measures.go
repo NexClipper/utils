@@ -4,9 +4,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/gophercloud/gophercloud"
-	"github.com/gophercloud/gophercloud/acceptance/tools"
-	"github.com/gophercloud/utils/gnocchi/metric/v1/measures"
+	"github.com/nexclipper/gophercloud"
+	"github.com/nexclipper/gophercloud/acceptance/tools"
+	"github.com/nexclipper/utils/gnocchi/metric/v1/measures"
 )
 
 // CreateMeasures will create measures inside a single Gnocchi metric. An error will be returned if the

@@ -6,9 +6,9 @@ import (
 	"testing"
 	"time"
 
-	th "github.com/gophercloud/gophercloud/testhelper"
-	fake "github.com/gophercloud/gophercloud/testhelper/client"
-	"github.com/gophercloud/utils/openstack/objectstorage/v1/objects"
+	th "github.com/nexclipper/gophercloud/testhelper"
+	fake "github.com/nexclipper/gophercloud/testhelper/client"
+	"github.com/nexclipper/utils/openstack/objectstorage/v1/objects"
 )
 
 const multipartManifest = `

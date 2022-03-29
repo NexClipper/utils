@@ -1,8 +1,8 @@
 package subnets
 
 import (
-	"github.com/gophercloud/gophercloud"
-	"github.com/gophercloud/gophercloud/openstack/networking/v2/subnets"
+	"github.com/nexclipper/gophercloud"
+	"github.com/nexclipper/gophercloud/openstack/networking/v2/subnets"
 )
 
 // IDFromName is a convenience function that returns a subnet's ID given its

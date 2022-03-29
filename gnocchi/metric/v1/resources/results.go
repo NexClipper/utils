@@ -4,10 +4,10 @@ import (
 	"encoding/json"
 	"time"
 
-	"github.com/gophercloud/gophercloud"
-	"github.com/gophercloud/gophercloud/pagination"
-	"github.com/gophercloud/utils/gnocchi"
-	"github.com/gophercloud/utils/internal"
+	"github.com/nexclipper/gophercloud"
+	"github.com/nexclipper/gophercloud/pagination"
+	"github.com/nexclipper/utils/gnocchi"
+	"github.com/nexclipper/utils/internal"
 )
 
 type commonResult struct {

@@ -1,8 +1,8 @@
 package flavors
 
 import (
-	"github.com/gophercloud/gophercloud"
-	"github.com/gophercloud/gophercloud/openstack/compute/v2/flavors"
+	"github.com/nexclipper/gophercloud"
+	"github.com/nexclipper/gophercloud/openstack/compute/v2/flavors"
 )
 
 // IDFromName is a convenience function that returns a flavor's ID given its

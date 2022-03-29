@@ -12,9 +12,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/gophercloud/gophercloud"
-	"github.com/gophercloud/gophercloud/openstack/objectstorage/v1/containers"
-	"github.com/gophercloud/gophercloud/openstack/objectstorage/v1/objects"
+	"github.com/nexclipper/gophercloud"
+	"github.com/nexclipper/gophercloud/openstack/objectstorage/v1/containers"
+	"github.com/nexclipper/gophercloud/openstack/objectstorage/v1/objects"
 )
 
 // UploadOpts represents options used for uploading an object.

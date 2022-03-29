@@ -4,10 +4,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/gophercloud/gophercloud"
-	"github.com/gophercloud/gophercloud/acceptance/tools"
-	"github.com/gophercloud/utils/gnocchi/metric/v1/resources"
 	"github.com/hashicorp/go-uuid"
+	"github.com/nexclipper/gophercloud"
+	"github.com/nexclipper/gophercloud/acceptance/tools"
+	"github.com/nexclipper/utils/gnocchi/metric/v1/resources"
 )
 
 // CreateGenericResource will create a Gnocchi resource with a generic type.

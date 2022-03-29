@@ -3,8 +3,8 @@ package servers
 import (
 	"fmt"
 
-	"github.com/gophercloud/gophercloud"
-	"github.com/gophercloud/gophercloud/openstack/compute/v2/servers"
+	"github.com/nexclipper/gophercloud"
+	"github.com/nexclipper/gophercloud/openstack/compute/v2/servers"
 )
 
 // IDFromName is a convenience function that returns a server's ID given its

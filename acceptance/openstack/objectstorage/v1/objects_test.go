@@ -1,3 +1,4 @@
+//go:build acceptance
 // +build acceptance
 
 package v1
@@ -10,11 +11,11 @@ import (
 	"path"
 	"testing"
 
-	"github.com/gophercloud/gophercloud/acceptance/tools"
-	th "github.com/gophercloud/gophercloud/testhelper"
+	"github.com/nexclipper/gophercloud/acceptance/tools"
+	th "github.com/nexclipper/gophercloud/testhelper"
 
-	"github.com/gophercloud/utils/openstack/clientconfig"
-	"github.com/gophercloud/utils/openstack/objectstorage/v1/objects"
+	"github.com/nexclipper/utils/openstack/clientconfig"
+	"github.com/nexclipper/utils/openstack/objectstorage/v1/objects"
 )
 
 func TestObjectStreamingUploadDownload(t *testing.T) {

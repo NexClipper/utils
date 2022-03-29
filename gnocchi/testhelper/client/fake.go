@@ -1,8 +1,8 @@
 package client
 
 import (
-	"github.com/gophercloud/gophercloud"
-	"github.com/gophercloud/gophercloud/testhelper/client"
+	"github.com/nexclipper/gophercloud"
+	"github.com/nexclipper/gophercloud/testhelper/client"
 )
 
 // TokenID is a fake Identity service token.

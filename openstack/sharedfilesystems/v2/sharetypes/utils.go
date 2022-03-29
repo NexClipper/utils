@@ -1,8 +1,8 @@
 package sharetypes
 
 import (
-	"github.com/gophercloud/gophercloud"
-	"github.com/gophercloud/gophercloud/openstack/sharedfilesystems/v2/sharetypes"
+	"github.com/nexclipper/gophercloud"
+	"github.com/nexclipper/gophercloud/openstack/sharedfilesystems/v2/sharetypes"
 )
 
 // IDFromName is a convenience function that returns a share type's ID given

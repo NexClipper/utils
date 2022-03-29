@@ -6,10 +6,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/gophercloud/gophercloud/pagination"
-	th "github.com/gophercloud/gophercloud/testhelper"
-	"github.com/gophercloud/utils/gnocchi/metric/v1/measures"
-	fake "github.com/gophercloud/utils/gnocchi/testhelper/client"
+	"github.com/nexclipper/gophercloud/pagination"
+	th "github.com/nexclipper/gophercloud/testhelper"
+	"github.com/nexclipper/utils/gnocchi/metric/v1/measures"
+	fake "github.com/nexclipper/utils/gnocchi/testhelper/client"
 )
 
 func TestListMeasures(t *testing.T) {

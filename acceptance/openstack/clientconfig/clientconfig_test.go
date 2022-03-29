@@ -1,3 +1,4 @@
+//go:build acceptance || clientconfig
 // +build acceptance clientconfig
 
 package clientconfig
@@ -8,13 +9,13 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/gophercloud/gophercloud/openstack/compute/v2/servers"
+	"github.com/nexclipper/gophercloud/openstack/compute/v2/servers"
 
-	acc_compute "github.com/gophercloud/gophercloud/acceptance/openstack/compute/v2"
-	acc_tools "github.com/gophercloud/gophercloud/acceptance/tools"
+	acc_compute "github.com/nexclipper/gophercloud/acceptance/openstack/compute/v2"
+	acc_tools "github.com/nexclipper/gophercloud/acceptance/tools"
 
-	osClient "github.com/gophercloud/utils/client"
-	cc "github.com/gophercloud/utils/openstack/clientconfig"
+	osClient "github.com/nexclipper/utils/client"
+	cc "github.com/nexclipper/utils/openstack/clientconfig"
 )
 
 func TestServerCreateDestroy(t *testing.T) {

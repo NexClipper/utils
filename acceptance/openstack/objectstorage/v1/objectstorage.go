@@ -7,10 +7,10 @@ import (
 	"os"
 	"testing"
 
-	"github.com/gophercloud/gophercloud"
-	"github.com/gophercloud/gophercloud/acceptance/tools"
-	"github.com/gophercloud/gophercloud/openstack/objectstorage/v1/containers"
-	"github.com/gophercloud/gophercloud/openstack/objectstorage/v1/objects"
+	"github.com/nexclipper/gophercloud"
+	"github.com/nexclipper/gophercloud/acceptance/tools"
+	"github.com/nexclipper/gophercloud/openstack/objectstorage/v1/containers"
+	"github.com/nexclipper/gophercloud/openstack/objectstorage/v1/objects"
 )
 
 // CompareFiles will compare two files

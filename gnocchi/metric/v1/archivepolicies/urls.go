@@ -1,6 +1,6 @@
 package archivepolicies
 
-import "github.com/gophercloud/gophercloud"
+import "github.com/nexclipper/gophercloud"
 
 const resourcePath = "archive_policy"
 
